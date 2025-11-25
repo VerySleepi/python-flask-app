@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Alice",
+        "position": "Manager",
+        "department": "Sales"
+    },
+    {
+        "name": "Bob",
+        "position": "Developer",
+        "department": "IT"
+    },
+    {
+        "name": "Charlie",
+        "position": "Designer",
+        "department": "Marketing"
+    }
+]

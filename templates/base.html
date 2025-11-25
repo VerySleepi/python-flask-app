@@ -5,7 +5,15 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <header>
+
+    {% include 'partials/header.html' %}
+
+    {% block content %}{% endblock %}
+
+    {% include 'partials/footer.html' %}
+
+
+    <!-- <header>
     <div>
         <h1>Flask Demos</h1>
     <nav>
@@ -20,9 +28,7 @@
     <div>
         <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Flask Logo">
     </div>
-    </header>
-    {% block content %}
-    <!-- Page-specific content goes here -->
-    {% endblock %}
+    </header> -->
+
 </body>
 </html>
